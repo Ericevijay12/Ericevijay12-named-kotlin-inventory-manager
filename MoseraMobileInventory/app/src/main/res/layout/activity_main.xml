@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mosera Mobile Inventory"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:paddingBottom="10dp" />
+
+    <EditText
+        android:id="@+id/editName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Part Name (e.g. Engine)" />
+
+    <EditText
+        android:id="@+id/editPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Price (e.g. 500.00)"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/editCategory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Category (e.g. Gearbox)" />
+
+    <Button
+        android:id="@+id/btnAdd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add to Inventory"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:id="@+id/textDisplay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="No parts added yet."
+        android:textSize="16sp" />
+</LinearLayout>
